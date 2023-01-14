@@ -1,0 +1,32 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5625rem;
+}
+.select select {
+  background: var(--color-grey-1);
+  border: 0.125rem solid var(--color-grey-1);
+  border-radius: 0.5rem;
+
+  background-image: url("../../img/ANGLE-DOWN.svg");
+  background-repeat: no-repeat;
+  background-position: 90%;
+
+  appearance: none;
+  cursor: pointer;
+
+  width: 8rem;
+  height: 3rem;
+  padding: 0 1rem;
+}
+.select select:hover {
+  background-color: var(--color-grey-2);
+}
+
+.select label {
+  font-family: var(--font-family-Inter);
+  font-weight: 400;
+  font-size: var(--font-size-6);
+  text-transform: capitalize;
+  color: var(--color-grey-4);
+}
